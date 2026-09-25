@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Glioma', 'Meningioma', 'Tumor']
+
+roboflow:
+  workspace: bappy
+  project: brain-tumor-adcif-zzlqf
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bappy/brain-tumor-adcif-zzlqf/dataset/dataset
